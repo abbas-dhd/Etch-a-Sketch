@@ -23,12 +23,19 @@ header{
     20px 20px 0px #543b1681,
     30px 30px 0px #543b1625;
 }
+p{
+    color: rgb(247, 238, 228);
+    font-size: 1.2rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 9px;
+}
 .main-container{
     display: flex;
     width: fit-content;
     height: fit-content;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
     padding: 1rem;
     border-radius: 5px;
     /* border: 2px solid red; */
