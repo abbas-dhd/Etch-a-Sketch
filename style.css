@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(184, 140, 83);
+}
+header{
+    color: antiquewhite;
+    font-size: 2rem;
+    text-align: center;
+}
+.main-container{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+    background-color: rgb(245, 224, 196);
+    box-shadow: rgb(95, 65, 25) 3px 3px 6px 0px inset, rgb(184, 140, 83, 0.5) -3px -3px 6px 1px inset;
+    gap: 50px;
+}
+
+.settings-container{
+    display: flex;
+    width: 250px;
+    height: fit-content;
+    margin: auto;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 2em;
+    /* border: 2px solid green; */
+}
+.grid{
+    display: grid;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 3px;
+    box-shadow: rgba(148, 84, 0, 0.3) 0px 3px 8px;
+
+    /* background-color: red; */
+}
+.grid-unit{
+    background-color: white;
+}
+.color,.size{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+input[type=color]{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+.color-wrapper{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+}
+
+label{
+  font-size: 0.9rem;
+  text-align: left;
+  color:rgb(148, 84, 0);
+}
+select{
+    border: 0;
+    width: 80px;
+    height: 30px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: antiquewhite;
+    color: rgb(148, 84, 0);
+}
+select:focus{
+    border: none;
+    outline: none;
+}
+
+button{
+    border: none;
+    height: 30px;
+    width: 180px;
+    align-items: center;
+    background-color: rgb(148, 84, 0);
+    font-size: large;
+    color:antiquewhite;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color:antiquewhite ;
+    color: rgb(148, 84, 0);
+}
